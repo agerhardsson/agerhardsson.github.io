@@ -1,0 +1,181 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+ol, ul {
+	list-style: none;
+    font-size: 80%;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* @font-face { font-family: 'Linux Libertine'; font-style: normal; font-weight: 400; src: local('Linux Libertine'),url(//brick.a.ssl.fastly.net/fonts/linuxlibertine/400.woff) format('woff'); } .fa-wikipedia:before { font-family: 'Linux Libertine', 'Times New Roman', Times, serif; font-weight: 400; content: "W"; } */
+
+body {
+	font: normal normal 400;
+	font-size: 100%;
+	line-height: 1.5em;
+	/*font-family: Verdana, sans-serif; */
+	font-family: "Open sans", sans-serif;
+	margin-top: 1em;
+	margin-left: 1em;
+}
+
+img {
+    margin-left: 25%;
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+}
+
+p {
+    font-size: 90%;
+    margin-top: 1em;
+	position: relative;
+	left: 20%;
+
+	margin-bottom: 0.7em;
+	margin-right: 0;
+	width: 80%;
+    padding: 0;
+}
+
+code {
+	font: normal normal;
+	font-size: 90%;
+	font-family: Menlo, monospace, sans-serif;
+	color: #aaa;
+}
+
+p code {
+	position: absolute;
+    font-style: italic;
+	left: -17%;
+    font-size: 80%;
+    border: 0px;
+    background-color: transparent;
+}
+
+
+ul {
+	position: relative;
+	left: 25%;
+	width: 65%;
+	margin-bottom: 1.5em;
+	margin-top: 1em;
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
+
+li {
+	/* empty */
+}
+
+li ul {
+	position: relative;
+	left: 0;
+/*	margin-top: 0.25em; */
+}
+
+h1,h2,h3,h4 {
+	font-weight: 400;
+	font-family: Cousine,Verdana,sans-serif;
+	width: 65%;
+}
+
+h1 {
+	text-align: left;
+	font-size: 2.5em;
+	line-height: 1em;
+	position: relative;
+	margin-top: 1em;
+	left: 0%;
+}
+
+h1+p {
+	/*subtitle*/
+	/* color: #1D49A0; */
+	/* font-style: italic; */
+	font-size: 110%;
+	line-height: 2em;
+	margin-top: 0.5em;
+	margin-bottom: 0em !important;
+}
+
+h2 {
+	font-size: 90%;
+	/* color: #a00; */
+	color: #1D49A0;
+	margin-top: 1em;
+	position: relative;
+    left: -12%;
+	top: 1em;
+	text-align: right;
+	width: 30%;
+}
+
+h3 {
+	color: #F07415;
+	font-size: 80%;
+    left: -12%;
+	line-height: 1.1em;
+	position: relative;
+	top: 0.5em;
+	text-align: right;
+	width: 30%;
+}
+#webaddress {
+	margin-top: 0em;
+	position: relative;
+    left: 25%;
+	color: #aaa;
+	font-family: Menlo,monospace,sans-serif;
+	font-size: 80%;
+}
+
+#webaddress a {
+	text-decoration: none;
+}
+
+em {
+	/*font-weight: bold; */
+	font-style: italic;
+}
+
+strong {
+	font-weight: bold;
+}
+
+#address {
+	display: none;
+}
+
+/* .footer {
+    // Chrome, Safari, Opera
+    -webkit-column-count: 2;
+    // Firefox
+    -moz-column-count: 2;
+    column-count: 2;
+		position: relative;
+		left: 25%;
+		margin-top: 2em;
+		margin-bottom: 7em;
+		margin-right: 0;
+		width: 75%;
+} */
+
+/*
+@media only screen and (max-width: 480px) {
+	make one column somehow...
+}*/

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+{%- include head.html -%}
+
+<body>
+    {%- include header.html -%}
+    <article class="">
+        <main class="page-content" aria-label="Content">
+            <div class="wrapper">
+                {{ content }}
+            </div>
+        </main>
+
+        {%- include footer.html -%}
+    </article>
+    <div id="div1" class="fa"></div>
+    <script src="{{ 'assets/scripts/mode-switcher.js' | relative_url }}"></script>
+</body>
+
+</html>

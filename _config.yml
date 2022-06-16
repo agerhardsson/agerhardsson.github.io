@@ -1,0 +1,66 @@
+title: Andreas Gerhardsson
+academic_title: PhD in Psychology
+author:
+    name: Andreas Gerhardsson
+    email: andreasgerhardsson@gmail.com
+    github: agerhardsson
+    google-scholar: https://scholar.google.com/citations?user=HBszfkkAAAAJ&hl=sv
+    orcid: 0000-0002-1087-5519
+    osf: https://osf.io/nd45g
+    researchgate: https://www.researchgate.net/profile/Andreas-Gerhardsson
+    picture: assets/img/profile_pic.jpg
+description: >- # this means to ignore newlines until "baseurl:"
+  This is a site
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+short-bio:
+    I started working as a research assistant for Johanna Schwarz (PhD), in a large sleep deprivation project, where I helped with data collection of more than 200 participants, analyzed results and wrote articles. This prepared me well for the PhD education, which I started in 2016. Working in the project also led me into the sleep research, and my main research focus is the effects of sleep deprivation on the interplay between emotion and cognition, which is also the subject of what was the first article of my dissertation. I recently finished my PhD and during the past two years I have started to work with magnetoencephalography (MEG) to understand neural underpinnings of effects of sleep deprivation. I am also interested in exploring selective attention processes using frequency tagging.
+
+areas-of-interest:
+    [Experimental research,
+    Sleep deprivation research,
+    Magnetoencephalography (MEG),
+    Affective neuroscience,
+    Cognitive neuroscience,
+    Data visualization,
+    Education and supervision,
+    Method development]
+
+
+header_pages:
+    - index.md
+    - publications.md
+    - cv.md
+
+show_excerpts: true
+markdown: kramdown
+parse_block_html: false
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+
+plugins:
+  - jekyll-feed
+  - jekyll-scholar
+
+feed:
+  categories:
+    - now
+# scholar:
+#     style: assets/bibliography/apa-cv
+#     locale: en
+#     source: assets/bibliography
+#     bibliography: references.bib
+#     sort_by: year
+#     bibliography_list_tag: ul
+#
+#     details_dir: bibliography
+#     details_layout: bibtex.html
+#     replace_strings: true
+#
+#     query: "@*"

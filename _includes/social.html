@@ -1,0 +1,33 @@
+{%- assign social = site.minima.social_links -%}
+
+<ul class="social-media-list">
+    {%- if site.author.email -%}<a href="mailto:{{ site.author.email }}">
+        <li class="fa fa-envelope">
+        </li>
+    </a>{%- endif -%}
+    {%- if site.author.github -%}<a href="http://github.com/{{ site.author.github }}">
+        <li class="fa fa-github">
+        </li>
+    </a>{%- endif -%}
+    {%- if site.author.google-scholar -%}<a href="{{ site.author.google-scholar }}">
+        <li class="ai ai-google-scholar">
+        </li>
+    </a>{%- endif -%}
+    {%- if site.author.orcid -%}<a href="https://orcid.org/{{ site.author.orcid }}">
+        <li class="ai ai-orcid">
+        </li>
+    </a>{%- endif -%}
+    {%- if site.author.osf -%}<a href="{{ site.author.osf }}">
+        <li class="ai ai-osf">
+        </li>
+    </a>{%- endif -%}
+    {%- if site.author.researchgate -%}<a href="{{ site.author.researchgate }}">
+        <li class="ai ai-researchgate">
+        </li>
+    </a>{%- endif -%}
+    {%- if site.author.twitter -%}<a href="{{ site.author.twitter }}">
+        <li class="ai ai-twitter">
+        </li>
+    </a>{%- endif -%}
+
+</ul>
