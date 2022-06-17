@@ -12,3 +12,5 @@ gem "webrick", "~> 1.7"
 gem "jekyll-feed", "~> 0.15.1"
 
 gem "jekyll-scholar", "~> 5.16"
+
+gem "faraday-retry", "~> 2.0"
