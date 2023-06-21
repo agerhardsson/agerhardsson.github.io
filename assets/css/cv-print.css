@@ -71,19 +71,20 @@ img {
 
 p {
 	position: relative;
-	left: 28%;
+	left: 30%;
     font-size: 90%;
-	/* margin-bottom: 0.2em; */
+	margin-bottom: 0.7em;
 	margin-right: 0;
-	width: 75%;
+	width: 90%;
 }
 
 code {
 	font: normal normal;
-	font-size: 70%;
-    margin-top: 0.5em;
+	font-size: 80%;
+    margin-top: 0em;
 	font-family: Menlo, monospace,sans-serif;
 	color: #444;
+	margin-bottom: 0.7em;
     border: 0px;
 }
 
@@ -92,6 +93,7 @@ p code {
     left: -10%;
     font-size: 70%;
     font-style: italic;
+	margin-bottom: 0.7em;
     border: 0px;
 }
 
@@ -145,28 +147,34 @@ h1+p {
 h2 {
 	font-size: 90%;
 	color: #222;
-    left: -8%;
-	margin-top: 1em;
+    left: -5%;
+	margin-top: 2em;
 	position: relative;
 	top: 1em;
 	text-align: right;
-	width: 25%;
+	width: 30%;
 }
 
 h2+p {
 	margin-top: 2.1em;
+	margin-bottom: 0em !important
 }
 
 h3 {
     font-size: 80%;
 	color: #444;
-    left: -8%;
-	line-height: 1.2em;
+    left: -5%;
+	/* line-height: 1.2em; */
 	position: relative;
-    margin-top: 1em;
+    margin-top: 2em;
 	top: 1.5em;
 	text-align: right;
-	width: 25%;
+	width: 30%;
+}
+
+h3+p {
+	margin-top: 2.1em;
+	margin-bottom: 0em !important
 }
 
 a {
@@ -206,7 +214,7 @@ strong {
 	visibility: hidden;
 }
 
-#scientific-publications {
+#other-merits {
 	 page-break-before: always;
 }
 

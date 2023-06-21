@@ -53,7 +53,7 @@ Department of Psychology, Stockholm university
 
 The thesis included three published articles and one manuscript, all with me as the first author. During the last two years I planned, designed and ran an experimental sleep restriction study, which included magnetoencephalography (MEG) recordings of 33 participants, scanned twice.
 
-`2021-`
+`2021-2022`
 **Research assistant (20-40%)**
 NatMEG, Karolinska institutet
 
@@ -93,11 +93,11 @@ Center of Neurodevelopmental Disorders at Karolinska Institutet
 
 **Course leader** in course on applied methods in neurocognition and learning, including tasks such as planning, lecturing, grading essays and supervising (two semesters).
 
-**Lectures** about sleep, stress, executive functions, attention, biological perspective on personality and memory and learning (about 35 hours).
+**Lectures** about sleep, stress, executive functions, attention, biological perspective on personality and memory and learning (> 40 hours).
 
 **Seminar** leader in statistics, cognitive functions, experiments in biological psychology (about 300 hours).
 
-**Supervision** of Bachelor theses (five), and several student essays on many different levels.
+**Supervision** of a master's thesis on machine learning, Bachelor theses (five), and several student essays on many different levels.
 
 ## Technical skills
 
@@ -146,9 +146,24 @@ _Gerhardsson, A._, Högman, L., and Fischer, H. (2015). Viewing distance matter 
 
 ### Manuscripts under preparation
 
+`...`
 _Gerhardsson, A._, Åkerstedt, T., Axelsson, J., Lekander, M., Kecklund, G.,  Fischer, H., & Schwarz, J. Working memory performance is better maintained in older compared with young adults after sleep deprivation.
 
+`...`
 _Gerhardsson, A._, Lundqvist, D., Fischer, H., Åkerstedt, T., Kecklund, G. & Schwarz, J. The effect of two nights of sleep restriction on emotional attention – a MEG study
+
+## Research grants
+
+`2017`
+**Lars Hierta foundation**, main applicant
+
+`2018`
+**Rut & Arvid Wolff foundation**, co-applicant
+
+`2020`
+**Axon Johnson foundation**, main applicant
+
+**Lamberg foundation**, main applicant
 
 
 ## Other merits
