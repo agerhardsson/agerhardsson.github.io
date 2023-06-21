@@ -19,42 +19,33 @@ permalink: #cv
 
 ## Currently
 
-I have recently finished my PhD and now work as a researcher at the department of Psychology, Stockholm University. At present, this work involves the completion of a manuscript for publication.
-
-I also work part-time at NatMEG, Karolinska Instituet, where I assist in lab management, provide user support, organize driver's licenses training etc.
+{{ site.short-bio }}
 
 ## Areas of interest
 
-* Experimental research
-* Sleep deprivation research
-* Magnetoencephalography (MEG)
-* Affective neuroscience
-* Cognitive neuroscience
-* Data visualization
-* Education, supervision
-* Method development
+{% for item in site.areas-of-interest %}
+* {{ item }}
+{% endfor %}
 
-## Education
+## Work experience
 
-`2022`
-**PhD, Psychology**; Stockholm University
+`2023-`
+**Work-package coordinator (50%):**
+TEF-Health | Center for Imaging Research (CIR), Karolinska institutet
 
-*Thesis title: Processing affecting information after sleep loss*
- [(download pdf)](https://www.diva-portal.org/smash/get/diva2:1647068/FULLTEXT01.pdf)
+My role in this EU-funded project is to coordinate one of the most central work-packages *Use cases and Demonstrators*. Here we want to identify the most important health related challenges as defined by society and health care, and map these to the development of AI and robotics in small and medium sized enterprises (SMEs). End goal of the project is to create Testing and Experimentation facilities and support for SMEs to better meet the needs of the health care and society.
 
-*Opponent: Professor Philippe Peigneux from University of Liège (Belgium)*
+`2022-`
+**Post-doc (50%):**
+Karolinska institutet
 
-*Supervisors: Professor Håkan Fischer, PhD Johanna Schwarz, Associate Professor Daniel Lundqvist*
+In this project we investigate the neural underpinnings of multi-sensory selective attention using MEG and frequency tagging. The work entails methods development, recruitment and experimental testing of healthy volunteers. 
 
-*Date of public defence: 2022-05-13*
+`2022-2023`
+**Post-doc (50%):**
+NatMEG, Karolinska institutet
 
-`2014`
-**MSc, Psychology**; Stockholm University
-
-`2014`
-**Teacher’s degree in Psychology and History**; Stockholm university
-
-## Research experience
+Besides lab management and development of educational material I helped start the implementation of new optically pumped magnetometers (OPM).
 
 `2016-2022`
 **PhD Student:**
@@ -77,6 +68,26 @@ Involved at all levels in a large research project (N = 218), engaged in setting
 `2014`
 **Research assistant (20%)**
 Center of Neurodevelopmental Disorders at Karolinska Institutet
+
+## Education
+
+`2022`
+**PhD, Psychology**; Stockholm University
+
+*Thesis title: Processing affecting information after sleep loss*
+ [(download pdf)](https://www.diva-portal.org/smash/get/diva2:1647068/FULLTEXT01.pdf)
+
+*Opponent: Professor Philippe Peigneux from University of Liège (Belgium)*
+
+*Supervisors: Professor Håkan Fischer, PhD Johanna Schwarz, Associate Professor Daniel Lundqvist*
+
+*Date of public defence: 2022-05-13*
+
+`2014`
+**MSc, Psychology**; Stockholm University
+
+`2014`
+**Teacher’s degree in Psychology and History**; Stockholm university
 
 ## Teaching experience
 
@@ -141,6 +152,8 @@ _Gerhardsson, A._, Lundqvist, D., Fischer, H., Åkerstedt, T., Kecklund, G. & Sc
 
 
 ## Other merits
+
+**Co-organizer for IBD workshop 2023** which was a 2-day event hosted by Digital Futures (KTH). Topics were centered around analysis and modelling, and experimental applications in the field of neuroscience with the keynote speakers Gustavo Deco, Peter Fransson and Axel Thielscher. [https://ibd2023.carrd.co](https://ibd2023.carrd.co).
 
 **President and vice president** of the PhD student council at the department of Psychology at Stockholm university, also being the council’s representative on the department board, professor’s group, education committee and social science faculty council. Member of the department’s environmental committee.
 

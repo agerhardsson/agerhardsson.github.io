@@ -14,7 +14,9 @@ title: Home
 {%- include social.html -%}
 </div>
 
-{{ site.short-bio }}
+{{ site.short-bio }}.
+
+[More about TEF-Health](https://news.ki.se/major-eu-funding-for-development-of-ai-in-healthcare)
 
 ## Areas of interest
 
