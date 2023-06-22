@@ -267,6 +267,7 @@ ul, ol {
   margin-left: $spacing-unit;
   columns: 2;
   list-style: none;
+  display: block;
   -webkit-columns: 2;
   -moz-columns: 2;
 }

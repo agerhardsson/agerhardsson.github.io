@@ -4,6 +4,9 @@ title: CV
 permalink: #cv
 ---
 
+# Curriculum vitae
+<br>
+
 **{{site.author.name}}, {{site.academic_title}}**
 
 <!-- <div id="img">
@@ -24,7 +27,7 @@ permalink: #cv
 ## Areas of interest
 
 {% for item in site.areas-of-interest %}
-* {{ item }}
+* {{ item -}}
 {% endfor %}
 
 ## Work experience
@@ -101,18 +104,9 @@ Center of Neurodevelopmental Disorders at Karolinska Institutet
 
 ## Technical skills
 
-* R
-* Python
-* Psychopy
-* Markdown
-* MATLAB
-* Git and GitHub
-* Presentation (Neurobs)
-* Stata
-* HTML and CSS
-* Bash
-
-<br>
+{% for item in site.technical-skills %}
+* {{ item -}} 
+{% endfor %}
 
 ## Scientific publications
 
@@ -165,6 +159,8 @@ _Gerhardsson, A._, Lundqvist, D., Fischer, H., Åkerstedt, T., Kecklund, G. & Sc
 
 **Lamberg foundation**, main applicant
 
+`2021`
+**Swedish sleep research society**, main applicant
 
 ## Other merits
 

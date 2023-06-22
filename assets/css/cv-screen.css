@@ -66,27 +66,23 @@ p code {
     background-color: transparent;
 }
 
-
-ul {
-	position: relative;
-	left: 25%;
-	width: 65%;
-	margin-bottom: 1.5em;
-	margin-top: 1em;
-  columns: 2;
-  -webkit-columns: 2;
-  -moz-columns: 2;
-}
-
+ul, ol {
+	margin-left: 25%;
+	width: 75%;
+	columns: 2;
+	list-style: none;
+	display: inline-block;
+	-webkit-columns: 2;
+	-moz-columns: 2;
+  }
 li {
-	/* empty */
+> ul,
+> ol {
+	margin-bottom: 0;
+
+}
 }
 
-li ul {
-	position: relative;
-	left: 0;
-/*	margin-top: 0.25em; */
-}
 
 h1,h2,h3,h4 {
 	font-weight: 400;
@@ -100,7 +96,7 @@ h1 {
 	line-height: 1em;
 	position: relative;
 	margin-top: 1em;
-	left: 0%;
+	left: 20%;
 }
 
 h1+p {
@@ -110,13 +106,13 @@ h1+p {
 	font-size: 110%;
 	line-height: 2em;
 	margin-top: 0.5em;
-	margin-bottom: 0em !important;
+	margin-bottom: 1em;
 }
 
 h2 {
 	font-size: 90%;
-	/* color: #a00; */
-	color: #1D49A0;
+	/* color: #1D49A0; */
+	color: #79b8ff;
 	margin-top: 1em;
 	position: relative;
     left: -12%;
